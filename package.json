@@ -1,0 +1,29 @@
+{
+  "name": "ts-baratie",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "repository": "https://github.com/Wbmz/ts-baratie",
+  "author": "Wafaa Boumaaz",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn nodemon",
+    "lint": "eslint \"src/*.ts\" --fix",
+    "format": "yarn prettier --write \"src/**/*\" --loglevel silent"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/node": "^13.11.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^7.21.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
